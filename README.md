@@ -6,7 +6,7 @@ Fishology was a final year project I created back in 2023 (long, long time ago..
 This repository includes the artifacts of the project.
 
 📺 Watch how Fishology [works](https://www.youtube.com/watch?v=4Odq8R4rbQ8)\
-📃 Read the full report 
+📃 Read the full [report](Fishology_Report.pdf)
 
 ### Development Overview
 
