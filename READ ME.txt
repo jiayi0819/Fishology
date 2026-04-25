@@ -1,8 +1,9 @@
-==============================================================
-	HOW TO RUN FISHOLOGY IN YOUR COMPUTER ?
-==============================================================
+#Fishology
+Fishology website, an underwater diary website for your mindfulness.
 
-In [fishology_project] directory:
+##HOW TO RUN FISHOLOGY IN YOUR COMPUTER ?
+
+Under ***\fishology_project*** directory:
 run "source env/scripts/activate"
 
 In [fishology_django] directory:
