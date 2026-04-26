@@ -7,10 +7,11 @@ it will turn into a fish in their aquarium.
 
 >📺 ***Watch how Fishology [works](https://www.youtube.com/watch?v=4Odq8R4rbQ8)***
 
->📃 Read the full [report](Fishology_Report.pdf)
+>📃 ***Read the full [report](Fishology_Report.pdf)***
 
+<br>
 
-### HOW TO RUN FISHOLOGY LOCALLY IN YOUR COMPUTER ?
+## Getting Started ✈
 
 Under ***\fishology_project*** directory, run below commands
 ```
@@ -27,6 +28,8 @@ Under ***\fishology_project\fishology_vue*** directory, run below commands and l
 npm run serve
 ```
 
+<br>
+
 ## Background ⛓
 >Fishology was a final year project I created back in 2023 (long, long time ago...)\
 >This repository includes the artifacts of the project.
@@ -37,6 +40,8 @@ immersive and beautiful underwater scene.
 This project can be treated as an experiment to probe new ways of user interaction with their
 diary records created on the internet besides providing users a small breathing space to regain
 their mindfulness.
+
+<br>
 
 ## Features 🔮
 **Visualize your Memories in a Healing Aquarium 🌊**
@@ -57,15 +62,17 @@ their mindfulness.
 **Swim Together 🐟🐟**
 - Share aquarium with your love ones, a secret aquarium where our fish swim together 🧀
 
-## Development Overview
+<br>
 
-**🖼 Front End**  : Vue
+## Development Overview 🔨
+
+**Front End**  : Vue
 - ***Bootstrap 5***   ：CSS framework that provides design templates for user interface components
 - ***Three.js***      ：Library used to import & process 3D models in webpage
 - ***Chart.js***      ：Library used to visualize data using charts, graph in webpage
 
-**🔨 Backend**    : Django
-- **📦 API**        : Axios was used to transfer data between backend and frontend
+**Backend**    : Django
+- **API**        : Axios was used to transfer data between backend and frontend
 
 **🌷 Visual Design**
 - ***Magica Voxel***      : Modelling & export .obj
