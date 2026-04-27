@@ -1,7 +1,7 @@
 ## Fishology 🐟
 Welcome to Fishology!\
 Fishology is a full-stack web application that transforms diary entries into an interactive 3D aquarium experience.
-<br>
+
 
 - **Front End**  : Vue.js, Three.js
 - **Backend**    : Django, Axios
@@ -9,32 +9,31 @@ Fishology is a full-stack web application that transforms diary entries into an 
 
 User 😶 → Vue → API (Django) → Database 📚
 
-<br>
 
 >📺 ***Watch how Fishology [works](https://www.youtube.com/watch?v=4Odq8R4rbQ8)***
 
 >📃 ***Read the full [report](Fishology_Report.pdf)***
 
-<br>
 
 ## Getting Started ✈
 
-Under ***\fishology_project*** directory, run below commands
-```
+Run below commands
+```bash
+cd fishology_project
 source env/scripts/activate
 ```
-
-Under ***\fishology_project\fishology_django*** directory, run below commands and leave the server runnning
+Get ready Vue Django
 ```
+cd fishology_project/fishology_django
 python manage.py runserver
 ```
-
-Under ***\fishology_project\fishology_vue*** directory, run below commands and leave the server runnning
+Get ready for Vue
 ```
+cd fishology_project/fishology_vue
+npm install
 npm run serve
 ```
 
-<br>
 
 ## Features 🔮
 **Visualize your Memories in a Healing Aquarium 🌊**
@@ -46,20 +45,19 @@ npm run serve
 - Check out catalogue of sea creatures and the required number of diaries to unlock them
 
 **Powerful Diary Filter 🔎**
-- Pick out only your sweet and sour fishes in your aquarium
+- Filter your diaries entries by mood
 - View analytics of mood changes in your diaries over time
 
 **More Rewarding Features 🎁**
 - Unlock new aquarium props and scenes by writing more diaries!
 
 **Swim Together 🐟🐟**
-- Share aquarium with your love ones, a secret aquarium where our fish swim together 🧀
+- Share aquarium with your loved ones, a secret aquarium where our fish swim together 🧀
 
-<br>
 
 ## Background ⛓
->Fishology was a final year project I created back in 2023 (long, long time ago...)\
->This repository includes the artifacts of the project.
+>Fishology was a final year project I created back in 2023.\
+>This repository preserves the artifacts of the project.
 
 We redefine how users can store, read, and write their diaries, besides turning their diary space into an
 immersive and beautiful underwater scene.
@@ -68,6 +66,5 @@ This project can be treated as an experiment to probe new ways of user interacti
 diary records created on the internet besides providing users a small breathing space to regain
 their mindfulness.
 
-<br>
 
 Not sure if anyone reading this, but welcome to Fishology ; )
