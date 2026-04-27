@@ -17,17 +17,16 @@ User 😶 → Vue → API (Django) → Database 📚
 
 ## Getting Started ✈
 
-Run below commands
 ```bash
 cd fishology_project
 source env/scripts/activate
 ```
-Get ready Vue Django
+Backend (Django)
 ```
 cd fishology_project/fishology_django
 python manage.py runserver
 ```
-Get ready for Vue
+Frontend (Vue)
 ```
 cd fishology_project/fishology_vue
 npm install
@@ -45,7 +44,7 @@ npm run serve
 - Check out catalogue of sea creatures and the required number of diaries to unlock them
 
 **Powerful Diary Filter 🔎**
-- Filter your diaries entries by mood
+- Filter diary entries by mood
 - View analytics of mood changes in your diaries over time
 
 **More Rewarding Features 🎁**
