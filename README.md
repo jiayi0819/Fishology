@@ -1,9 +1,15 @@
 ## Fishology 🐟
-Welcome to Fishology, an underwater diary website for your mindfulness!
+Welcome to Fishology!\
+Fishology is a full-stack web application that transforms diary entries into an interactive 3D aquarium experience.
+<br>
 
-In Fishology, we symbolize a user’s diary space as their aquarium, and when they submit a diary,
-it will turn into a fish in their aquarium.
+- **Front End**  : Vue.js, Three.js
+- **Backend**    : Django, Axios
+- **Visual**     : Three.js, Magica Voxel, Maxon Cinema4D
 
+User 😶 → Vue → API (Django) → Database 📚
+
+<br>
 
 >📺 ***Watch how Fishology [works](https://www.youtube.com/watch?v=4Odq8R4rbQ8)***
 
@@ -30,19 +36,6 @@ npm run serve
 
 <br>
 
-## Background ⛓
->Fishology was a final year project I created back in 2023 (long, long time ago...)\
->This repository includes the artifacts of the project.
-
-We redefine how users can store, read, and write their diaries, besides turning their diary space into an
-immersive and beautiful underwater scene.
-
-This project can be treated as an experiment to probe new ways of user interaction with their
-diary records created on the internet besides providing users a small breathing space to regain
-their mindfulness.
-
-<br>
-
 ## Features 🔮
 **Visualize your Memories in a Healing Aquarium 🌊**
 - Transform diary writing into a healing 3D aquarium experience, where your memories flow
@@ -64,19 +57,17 @@ their mindfulness.
 
 <br>
 
-## Development Overview 🔨
+## Background ⛓
+>Fishology was a final year project I created back in 2023 (long, long time ago...)\
+>This repository includes the artifacts of the project.
 
-**Front End**  : Vue
-- ***Bootstrap 5***   ：CSS framework that provides design templates for user interface components
-- ***Three.js***      ：Library used to import & process 3D models in webpage
-- ***Chart.js***      ：Library used to visualize data using charts, graph in webpage
+We redefine how users can store, read, and write their diaries, besides turning their diary space into an
+immersive and beautiful underwater scene.
 
-**Backend**    : Django
-- **API**        : Axios was used to transfer data between backend and frontend
+This project can be treated as an experiment to probe new ways of user interaction with their
+diary records created on the internet besides providing users a small breathing space to regain
+their mindfulness.
 
-**🌷 Visual Design**
-- ***Magica Voxel***      : Modelling & export .obj
-- ***Maxon Cinema4D***    : Convert model into .gltf
-- ***Three.js***          : Import model into website
+<br>
 
 Not sure if anyone reading this, but welcome to Fishology ; )
