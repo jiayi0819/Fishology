@@ -17,10 +17,6 @@ User 😶 → Vue → API (Django) → Database 📚
 
 ## Getting Started ✈
 
-```bash
-cd fishology_project
-source env/scripts/activate
-```
 Backend (Django)
 ```
 cd fishology_project/fishology_django
